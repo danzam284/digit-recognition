@@ -27,7 +27,7 @@ currCol = 0
 colorWall = COLORCYCLE[currCol]
 
 #Gets the trained ML model from a file
-model = tf.keras.models.load_model('/Users/danzam284/Desktop/Python Codes/saved/my_model')
+model = tf.keras.models.load_model('saved/my_model')
 print(user_width, user_height)
 #Defines variables for the rectangle buttons
 rClear = pygame.Rect(user_width - 1230, user_height - 510, 180, 130)
