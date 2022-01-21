@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 from keras.layers.advanced_activations import LeakyReLU
 
-path = '/Users/danzam284/Desktop/mnist.npz'
+path = 'mnist.npz'
 with np.load(path, allow_pickle=True) as f:
     (x_train, y_train), (x_test, y_test) = (f['x_train'], f['y_train']), (f['x_test'], f['y_test'])
 
@@ -21,4 +21,4 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 
 model.fit(x_train, y_train, epochs=20)
 
-model.save('/Users/danzam284/Desktop/Python Codes/saved/my_model')
+model.save('saved/my_model')
