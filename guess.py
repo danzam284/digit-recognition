@@ -142,13 +142,11 @@ while True:
 		if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1: #starts drawing
 			pressed = True
 			pos = pygame.mouse.get_pos()
-
 			#checks if buttons are clicked
 			if rGo.collidepoint(pos):
 				pixels =[]
 				for i in range(28):
 					col = []
-
 					#converts the pixels drawn to an array
 					for j in range(28):
 						col.append(colors[j * 28 + i])
@@ -199,6 +197,8 @@ while True:
 				for i in range(len(rects)):
 					if rects[i].collidepoint(pos):
 						colors[i] = DRAW
+						#OPTIONAL for thicker lines
+						"""
 						if i % 28 > 0:
 							colors[i - 1] = DRAW
 						if i % 28 < 0:
@@ -215,6 +215,8 @@ while True:
 							colors[i - 29] = DRAW
 						if i > 28 and i % 28 < 0:
 							colors[i - 27] = DRAW 
+						"""
+						
 		if event.type == pygame.KEYDOWN:
 			#If enter key then run algorithm
 			if event.key == pygame.K_RETURN:
