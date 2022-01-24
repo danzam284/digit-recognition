@@ -18,3 +18,6 @@ ALSO, the stats.txt is just there as a local storage so you can pick up from whe
 - Exit the program: Click the quit button or press the q key on your keyboard.
 - Hover over the text in the top left corner to see running stats of the program.
 - More help: Hover on the question mark in the bottom left corner.
+
+
+<img  width=450 src='Screen Shot 2022-01-23 at 11.47.45 PM.png'> <img width=450 src='Screen Shot 2022-01-23 at 11.47.57 PM.png'>
