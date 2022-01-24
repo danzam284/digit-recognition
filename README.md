@@ -6,8 +6,9 @@ This is a program which uses Tensorflow machine learning to predict the images t
 2. Open up the guess.py file and make sure to install all required packages (pip install pygame, tensorflow, etc)
 3. Run the guess.py file and enjoy (It takes like 10-20 seconds to load)
 
-*You do not need to use the ml.py file for anything it is just a representation of how I trained the machine learning model.
-*ALSO, the stats.txt is just there as a local storage so you can pick up from where you left off
+You do not need to use the ml.py file for anything it is just a representation of how I trained the machine learning model.
+
+ALSO, the stats.txt is just there as a local storage so you can pick up from where you left off
 
 ## Controls
 - Draw: Simply click in the center box to draw your number.
